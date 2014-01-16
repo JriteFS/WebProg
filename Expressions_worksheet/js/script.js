@@ -36,4 +36,4 @@ var description = "Bread Maker";
 var salesTax = .06; //6%
 var afterDiscount = originalPrice * discountPercentage;
 var withTax = afterDiscount * salesTax + afterDiscount;
-console.log("Your" + " " + description + " " + "was originally" + " $" + originalPrice + ", but after a " + disPercent + "% discount, it is now $" + afterDiscount + "" +)
+console.log("Your" + " " + description + " " + "was originally" + " $" + originalPrice + ", but after a " + disPercent + "% discount, it is now $" + afterDiscount + " without tax, and $" + withTax + " " + "with tax.")
