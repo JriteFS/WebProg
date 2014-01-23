@@ -1,54 +1,13 @@
 //Jacob Ritenour
 //01/16/2014
-//Conditionals Worksheet
-
-//Hot Enough?
-//Is it hot enough to go to the beach?
-var temp = 80;
-//if the temperature is less than 75..
-
-if(temp < 75){
-    //if its less than 75
-    console.log("We will go to the beach!");
-}else{
-    //if it’s greater or equal to 75
-    console.log("We will go to the movies.");
-}
+//Conditionals Industry- Based
 
 
-//Weight enough for the heavyweight division
-//Do I weigh enough
-var weight = 285;
-//if i weigh more than 250 lbs
-
-if(weight > 285){
-    console.log("The competitor qualifies for the heavyweight division.");
-}else{  //i do not weigh more than 250
-    console.log("The competitor needs to gain some weight!");
-}
-
-//Last chance for gas
-var mpg = 25;
-var tankCapacity = 16;
-var tankReading = .6;
-
-if(tankCapacity * tankReading * mpg > 200){
-    console.log("Yes, you can make it without stopping for gas!");
-}else{
-    console.log("You only have " + tankCapacity * tankReading + "gallons of gas in your tank, better stop for gas now while you can!");
-}
-
-//movie tickets
-var time = 7;
-var age = 45;
-var discounted = 7;
-var notDiscounted = 12;
-
-if(age > 55){
-    console.log("The ticket price is $" + discounted);
-}if(time < 3 > 5){
-    console.log("The ticket price is $" + discounted);
-}else{
-    console.log("The ticket price is $" + notDiscounted);
-}
+//do you think your dept or office has enough people to handle the workload?
+//how many people does your dept or office have in it now?
+var department = prompt("How many people does your dept or office have in it at this time?");
+//how many people do you think it should have in it?
+var required = prompt("In your opinion how many people should your office have to handle the workload?");
+//if the amount of people required is greater than the actual amount or less than the amount a suggestion is made.
+(required >= department) ? console.log("Maybe your should talk to a manager about getting more people in.") : console.log("Having to many people is a waste of resources, maybe you should request more work.")
 
