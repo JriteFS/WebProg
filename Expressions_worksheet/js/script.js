@@ -9,10 +9,10 @@ var temp = 80;
 
 if(temp < 75){
     //if its less than 75
-    console.log(“We will go to the beach!”);
+    console.log("We will go to the beach!");
 }else{
     //if it’s greater or equal to 75
-    console.log(“We will go to the movies.”);
+    console.log("We will go to the movies.");
 }
 
 
@@ -22,9 +22,9 @@ var weight = 285;
 //if i weigh more than 250 lbs
 
 if(weight > 285){
-    console.log("The competitor qualifies for the heavyweight division.")
+    console.log("The competitor qualifies for the heavyweight division.");
 }else{  //i do not weigh more than 250
-    console.log("The competitor needs to gain some weight!")
+    console.log("The competitor needs to gain some weight!");
 }
 
 //Last chance for gas
@@ -33,7 +33,7 @@ var tankCapacity = 16;
 var tankReading = .6;
 
 if(tankCapacity * tankReading * mpg > 200){
-    console.log("Yes, you can make it without stopping for gas!")
+    console.log("Yes, you can make it without stopping for gas!");
 }else{
-    console.log("You only have " + tankCapacity * tankReading + "gallons of gas in your tank, better stop for gas now while you can!")
+    console.log("You only have " + tankCapacity * tankReading + "gallons of gas in your tank, better stop for gas now while you can!");
 }
