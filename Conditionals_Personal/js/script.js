@@ -10,6 +10,4 @@ if(friendMoney > meal){
     console.log("You covering dinner tonight? LOL");
 }else if(friendMoney < meal){
     console.log("I/'ll get this one if you get next.");
-}else{
-    console.log("We can just hang out if you want")
 }
