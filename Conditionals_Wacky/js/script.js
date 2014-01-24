@@ -2,12 +2,15 @@
 //01/16/2014
 //Conditionals Wacky
 
-var apple = prompt("How many apples to you eat in a week?");
-if(apple = ){
-    prompt("Please tell me even if it is 0.");
+//how many water balloons do we need to have to hit everyone at least once?
+//how many people are there?
+var person = prompt("How many people are at the party?");
+while (person == "") { person = prompt("How many people are at the party?");
 }
-var plates = prompt("How many plates will you need to put all those apples on?");
-if(plates = " "){
-    prompt("let me know even if you think it is one");
+//how many balloons do we have already.
+var balloons = prompt("How many balloons do we have?");
+while (balloons == "") { balloons = prompt("How many balloons do we have?");
 }
-(apple = 5 / plates) ? console.log("Now time to add some oranges.") : console.log("Maybe we should look at adding some vegetables as well.");
+//potato to person count ratio
+var result = (balloons >= person) ? "You have enough balloons for everyone.": "You do not have enough, better fill more up.";
+console.log(result);

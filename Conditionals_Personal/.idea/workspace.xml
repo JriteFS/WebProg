@@ -26,7 +26,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="6" selection-start="127" selection-end="127" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="225">
+            <state line="8" column="7" selection-start="194" selection-end="194" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="225">
               <folding />
             </state>
           </provider>
@@ -35,7 +35,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="10" selection-start="66" selection-end="66" vertical-scroll-proportion="0.2747253" vertical-offset="0" max-vertical-offset="273">
+            <state line="6" column="30" selection-start="162" selection-end="162" vertical-scroll-proportion="0.32967034" vertical-offset="0" max-vertical-offset="315">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -100,14 +100,6 @@
     <property name="recentsLimit" value="5" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -118,15 +110,23 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -191,6 +191,22 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="6" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="10" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="270">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="40" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="225">
           <folding />
         </state>
@@ -223,11 +239,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Expressions_worksheet/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="53" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0" vertical-offset="370" max-vertical-offset="675">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
+        <state line="13" column="53" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0" vertical-offset="370" max-vertical-offset="675" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
@@ -248,11 +260,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Expressions_worksheet/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="1433" selection-end="1433" vertical-scroll-proportion="0.0" vertical-offset="415" max-vertical-offset="675">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
+        <state line="39" column="0" selection-start="1433" selection-end="1433" vertical-scroll-proportion="0.0" vertical-offset="415" max-vertical-offset="675" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
@@ -273,11 +281,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Expressions_worksheet/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="1433" selection-end="1433" vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="675">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
+        <state line="39" column="0" selection-start="1433" selection-end="1433" vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="675" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
@@ -314,23 +318,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Expressions_worksheet/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="54" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="54" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="6" selection-start="127" selection-end="127" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="225">
+        <state line="8" column="7" selection-start="194" selection-end="194" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="225">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="10" selection-start="66" selection-end="66" vertical-scroll-proportion="0.2747253" vertical-offset="0" max-vertical-offset="273">
+        <state line="6" column="30" selection-start="162" selection-end="162" vertical-scroll-proportion="0.32967034" vertical-offset="0" max-vertical-offset="315">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
